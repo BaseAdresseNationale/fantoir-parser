@@ -1,0 +1,36 @@
+{
+  "name": "@etalab/fantoir-parser",
+  "version": "0.0.0",
+  "description": "Analyseur de fichiers FANTOIR",
+  "publishConfig": {
+    "access": "public"
+  },
+  "main": "index.js",
+  "repository": "git@github.com:etalab/fantoir-parser.git",
+  "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prepare:natures-voies": "node bin/prepare-natures-voies",
+    "test": "xo && ava"
+  },
+  "dependencies": {
+    "get-stream": "^4.1.0",
+    "pumpify": "^1.5.1",
+    "split2": "^3.0.0",
+    "through2": "^3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "csv-parser": "^2.1.0",
+    "into-stream": "^4.0.0",
+    "xo": "^0.23.0"
+  },
+  "xo": {
+    "space": 2,
+    "semicolon": false
+  },
+  "engines": {
+    "node": ">= 8"
+  }
+}
