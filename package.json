@@ -10,8 +10,13 @@
   "author": "Jérôme Desboeufs <jerome.desboeufs@data.gouv.fr>",
   "license": "MIT",
   "private": false,
+  "files": [
+    "lib",
+    "index.js",
+    "natures-voies.json"
+  ],
   "scripts": {
-    "prepare:natures-voies": "node bin/prepare-natures-voies",
+    "prepare": "node bin/prepare-natures-voies",
     "test": "xo && ava"
   },
   "dependencies": {
