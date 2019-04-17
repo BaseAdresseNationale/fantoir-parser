@@ -20,15 +20,15 @@
     "test": "xo && ava"
   },
   "dependencies": {
-    "get-stream": "^4.1.0",
+    "get-stream": "^5.1.0",
     "pumpify": "^1.5.1",
-    "split2": "^3.0.0",
-    "through2": "^3.0.0"
+    "split2": "^3.1.1",
+    "through2": "^3.0.1"
   },
   "devDependencies": {
     "ava": "^1.4.1",
-    "csv-parser": "^2.1.0",
-    "into-stream": "^4.0.0",
+    "csv-parser": "^2.2.0",
+    "into-stream": "^5.1.0",
     "xo": "^0.24.0"
   },
   "xo": {
