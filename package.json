@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "get-stream": "^5.1.0",
+    "lodash": "^4.17.11",
     "pumpify": "^1.5.1",
     "split2": "^3.1.1",
     "through2": "^3.0.1"
