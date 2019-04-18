@@ -4,7 +4,7 @@ const {parseDateISO} = require('../lib/dates')
 
 test('parse voie', t => {
   const rawRecord = '5400840020FALL DES ACACIAS                N  3  0          00000000000000 00000001987001               001151   ACACIAS'
-  t.deepEqual(parseVoie(rawRecord, parseDateISO), {
+  t.deepEqual(parseVoie(rawRecord, {parseDate: parseDateISO, computeCompleteIds: true}), {
     type: 'voie',
     dateAjout: '1987-01-01',
     cleRivoli: 'F',

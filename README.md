@@ -36,6 +36,7 @@ input.pipe(parser).pipe(output)
 | `accept` | Liste des types de valeurs acceptés (parmi `commune`, `voie`, `eof`). Par défaut `['voie']`. |
 | `dateFormat` | Type de date attendu après l’extraction (parmi `iso`, `native`, `integer`). Par défaut `iso`. Le plus rapide est `integer`. |
 | `memoizeDateFormat` | Booléen indiquant si on met en cache les valeurs obtenues lors de l’extraction des dates. Par défaut `false`. Pertinent pour `dateFormat: 'iso'`. |
+| `computeCompleteIds` | Booléen indiquant si l’analyseur doit construire une identifiant complet avec date de début. Par défaut : `false` |
 
 ## Licence
 
