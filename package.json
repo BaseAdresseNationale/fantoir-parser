@@ -21,6 +21,7 @@
   },
   "dependencies": {
     "get-stream": "^5.1.0",
+    "into-stream": "^5.1.0",
     "lodash": "^4.17.11",
     "pumpify": "^1.5.1",
     "split2": "^3.1.1",
@@ -29,7 +30,6 @@
   "devDependencies": {
     "ava": "^1.4.1",
     "csv-parser": "^2.2.0",
-    "into-stream": "^5.1.0",
     "xo": "^0.24.0"
   },
   "xo": {
