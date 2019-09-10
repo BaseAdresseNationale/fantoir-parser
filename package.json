@@ -22,14 +22,14 @@
   "dependencies": {
     "get-stream": "^5.1.0",
     "into-stream": "^5.1.0",
-    "lodash": "^4.17.11",
-    "pumpify": "^1.5.1",
+    "lodash": "^4.17.15",
+    "pumpify": "^2.0.0",
     "split2": "^3.1.1",
     "through2": "^3.0.1"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
-    "csv-parser": "^2.2.0",
+    "ava": "^2.3.0",
+    "csv-parser": "^2.3.0",
     "xo": "^0.24.0"
   },
   "xo": {
