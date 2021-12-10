@@ -20,16 +20,16 @@
     "test": "xo && ava"
   },
   "dependencies": {
-    "get-stream": "^5.1.0",
+    "get-stream": "^6.0.1",
     "into-stream": "^5.1.1",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.21",
     "pumpify": "^2.0.1",
-    "split2": "^3.1.1",
+    "split2": "^4.1.0",
     "through2": "^3.0.1"
   },
   "devDependencies": {
     "ava": "^3.15.0",
-    "csv-parser": "^2.3.2",
+    "csv-parser": "^3.0.0",
     "xo": "^0.47.0"
   },
   "xo": {
