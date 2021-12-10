@@ -1,9 +1,9 @@
 const fs = require('fs')
-const {join} = require('path')
+const path = require('path')
 const csvParser = require('csv-parser')
 
-const inputFile = join(__dirname, '..', 'data', 'natures_voies.csv')
-const outputFile = join(__dirname, '..', 'natures-voies.json')
+const inputFile = path.join(__dirname, '..', 'data', 'natures_voies.csv')
+const outputFile = path.join(__dirname, '..', 'natures-voies.json')
 
 const naturesVoies = {}
 

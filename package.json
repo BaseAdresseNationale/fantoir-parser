@@ -30,13 +30,21 @@
   "devDependencies": {
     "ava": "^3.15.0",
     "csv-parser": "^2.3.2",
-    "xo": "^0.24.0"
+    "xo": "^0.47.0"
   },
   "xo": {
     "space": 2,
-    "semicolon": false
+    "semicolon": false,
+    "rules": {
+      "comma-dangle": "off",
+      "unicorn/prefer-module": "off",
+      "unicorn/prevent-abbreviations": "off",
+      "import/extensions": "off",
+      "node/prefer-global/process": "off",
+      "node/prefer-global/buffer": "off"
+    }
   },
   "engines": {
-    "node": ">= 8"
+    "node": ">= 12"
   }
 }
