@@ -2,5 +2,5 @@ const test = require('ava')
 const {parseDateISO} = require('../lib/dates')
 
 test('parseDateISO', t => {
-  t.is(parseDateISO('2018070'), '2018-03-11')
+  t.is(parseDateISO('20180311'), '2018-03-11')
 })
