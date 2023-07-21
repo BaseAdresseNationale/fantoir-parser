@@ -1,6 +1,6 @@
 {
   "name": "@ban-team/fantoir-parser",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Analyseur de fichiers TOPO-FANTOIR",
   "publishConfig": {
     "access": "public"
