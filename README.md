@@ -6,7 +6,7 @@ Analyseur de fichiers FANTOIR
 ### Analyser un Buffer ou une String
 
 ```js
-const {parseBuffer} = require('@etalab/fantoir-parser')
+const {parseBuffer} = require('@ban-team/fantoir-parser')
 
 const records = await parseBuffer(input, options)
 ```
@@ -14,7 +14,7 @@ const records = await parseBuffer(input, options)
 ### Analyser un flux (Stream)
 
 ```js
-const {parseStream} = require('@etalab/fantoir-parser')
+const {parseStream} = require('@ban-team/fantoir-parser')
 
 const records = await parseStream(inputStream, options)
 ```
@@ -22,7 +22,7 @@ const records = await parseStream(inputStream, options)
 ### Créer un parser (TransformStream)
 
 ```js
-const {createParser} = require('@etalab/fantoir-parser')
+const {createParser} = require('@ban-team/fantoir-parser')
 
 const parser = createParse(options)
 
